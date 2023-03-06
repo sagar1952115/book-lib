@@ -1,0 +1,70 @@
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 9;
+  width: 98vw;
+  height: 100vh;
+}
+.homepage-left {
+  background-color: rgba(92, 99, 4, 0.596);
+  flex: 2;
+}
+.homepage-right {
+  flex: 6;
+}
+.subject-input {
+  display: flex;
+  width: 70%;
+  padding: 0.6rem 0.5rem;
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+.trending {
+  color: white;
+  background-color: rgba(45, 48, 1, 0.808);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.search-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-area button {
+  background-color: rgb(45, 48, 1);
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.6rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.search-button {
+  color: white;
+  font-size: 1.2rem;
+}
+.author-input {
+  display: flex;
+  width: 40%;
+  padding: 0.6rem 0.5rem;
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  border: 2px solid #bbb;
+}
+
+.homepage-card {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
